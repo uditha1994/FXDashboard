@@ -1,0 +1,151 @@
+
+
+/*******
+
+        @Skeleton
+
+******/
+
+.root {
+
+}
+
+.label {
+}
+
+Text, .text, .label {
+    -fx-font-family : Roboto Regular;
+}
+
+.scroll-pane,
+.scroll-pane .viewport:focused,
+.scroll-pane .viewport {
+    -fx-border-color : transparent;
+    -fx-background-color : transparent;
+    -fx-effect : none;
+    -fx-padding : 0px;
+    -fx-background-insets : 0px;
+    -fx-border-width : 0px;
+}
+
+/*******
+
+        @Dashboard
+
+******/
+
+.center-layout .bar {
+    -fx-background-color : -fx-background;
+    -fx-min-height : 40px;
+    -fx-border-color : -light-gray-2;
+    -fx-border-width : 0 0 1 0;
+}
+
+.hamburger {
+    -fx-background-color : transparent;
+    -fx-min-height : 20px;
+    -fx-max-height : 20px;
+    -fx-pref-height : 20px;
+    -fx-padding : 10 0 0 0;
+}
+
+.hamburger .icon {
+    -fx-fill : -text-color;
+}
+
+.snack-bar .label-action {
+    -fx-padding : 2px;
+    -fx-border-width : 1px;
+    -fx-background-color : white;
+    -fx-border-color : white;
+    -fx-background-radius : 3px;
+    -fx-border-radius : 3px;
+    -fx-text-fill : -snack-color;
+}
+
+.snack-bar .label-action:pressed   {
+    -fx-background-color : transparent;
+    -fx-text-fill : white;
+}
+
+.snack-bar .info-text {
+    -fx-text-fill : white;
+}
+
+#wrapper .alert-container {
+    -fx-background-radius : 50;
+    -fx-padding : 10 0 0 0;
+}
+
+#wrapper .alert-body {
+    -fx-background-color : white;
+    -fx-padding : 0px;
+    -fx-background-radius : 10;
+}
+
+
+.scroll-pane .scroll-bar:vertical {
+    -fx-padding : 30px 0px 0px 0px;
+}
+
+
+.bubble-item {
+    -fx-pref-width : 30px;
+    -fx-min-width : 30px;
+    -fx-max-width : 30px;
+
+    -fx-pref-height : 30px;
+    -fx-min-height : 30px;
+    -fx-max-height : 30px;
+
+    -fx-border-color : -cyan;
+
+    -fx-border-radius : 100px;
+    -fx-background-radius : 100px;
+
+    -fx-background-color : -fx-accent;
+    -fx-border-color : -fx-accent;
+    -fx-border-width : 4px;
+    -fx-cursor : hand;
+}
+
+.bubble-item:selected {
+    -fx-background-color : transparent;
+}
+
+
+.schedule-item .icon {
+    -fx-border-width : 2px;
+    -fx-border-radius : 100px;
+    -fx-font-weight : bold;
+}
+
+.schedule-item .title {
+    -fx-font-weight : bold;
+    -fx-font-size : 10pt;
+}
+
+.donut-chart {
+    -fx-border-color : -light-gray-2;
+}
+
+.toggle-box {
+    -fx-border-width : 2px;
+    -fx-border-color : -light-gray-2;
+    -fx-background-color : transparent;
+}
+
+.toggle-box:selected .icon {
+    -fx-fill : -fx-accent;
+}
+
+.badge-search {
+    -fx-border-width : 1px;
+    -fx-border-radius : 10px;
+    -fx-background-radius : 10px;
+    -fx-padding : 5px;
+    -fx-background-color : -light-gray;
+    -fx-border-color : -light-gray-2;
+    -fx-text-fill : -text-color;
+
+}
